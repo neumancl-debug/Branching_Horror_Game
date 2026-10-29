@@ -1,0 +1,4 @@
+# Normalize text in Git; Unix launchers must keep LF line endings on Windows too.
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf

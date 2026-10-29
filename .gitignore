@@ -1,0 +1,17 @@
+__pycache__/
+.venv/
+*.pyc
+.devtools/
+.ruff_cache/
+.venv-*/
+venv/
+.DS_Store
+Thumbs.db
+.env
+*.zip
+*.whl
+*.exe
+*.dll
+*.pyd
+github-upload/
+.ui-preview/

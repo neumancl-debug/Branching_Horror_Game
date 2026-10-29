@@ -1,0 +1,12 @@
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = [".devtools"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Hide Pygame's support banner before importing it.
+"main.py" = ["E402"]
+"test_ui.py" = ["E402"]
